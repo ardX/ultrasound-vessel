@@ -1,0 +1,71 @@
+LIBRARY	"usgfw2wrapper"
+;
+;contains the list of functions that are being exported from this DLL
+;
+
+EXPORTS   
+     
+        init_ultrasound_usgfw2  PRIVATE
+        find_connected_probe    PRIVATE
+        data_view_function      PRIVATE
+        mixer_control_function  PRIVATE
+        return_pixel_values     PRIVATE
+        get_resolution          PRIVATE
+        Freeze_ultrasound_scanning PRIVATE
+        Run_ultrasound_scanning PRIVATE 
+        Close_and_release       PRIVATE 
+        on_init                 PRIVATE
+        Stop_ultrasound_scanning PRIVATE
+        on_probe_button_pressed PRIVATE
+        frequency_control       PRIVATE
+        B_FrequencySetPrevNext  PRIVATE 
+        get_probe_code          PRIVATE
+        depth_control           PRIVATE 
+        DepthSetPrevNext        PRIVATE
+        gain_control            PRIVATE
+        B_GainSetByIdx          PRIVATE
+        power_control             PRIVATE    
+        B_PowerSetByIdx           PRIVATE
+        lines_density             PRIVATE
+        B_LinesDensitySetPrevNext PRIVATE
+        view_area                 PRIVATE
+        B_view_areaSetPrevNext    PRIVATE
+        B_FocusSetPrevNext        PRIVATE
+        focus_control             PRIVATE
+        B_FocusSetPrevNext        PRIVATE
+        steering_angle            PRIVATE
+        B_SteeringAngleSetPrevNext PRIVATE
+        image_orientation          PRIVATE
+        ChangeScanDirection        PRIVATE
+        wide_view_angle            PRIVATE 
+        WideViewAngleSetPrevNext   PRIVATE 
+        scan_type_control          PRIVATE
+        turn_on_scan_type          PRIVATE
+        compound_angle             PRIVATE 
+        CompoundFramesSetPrevNext  PRIVATE 
+        CompoundAngleSetPrevNext   PRIVATE
+        compound_frames_number     PRIVATE
+        TGC_control                PRIVATE
+        adjust_TGC                 PRIVATE
+        B_DynamicRangeSetPrevNext  PRIVATE
+        B_dynamic_range            PRIVATE
+        return_pixel_values2       PRIVATE
+        set_callback_scan_converter PRIVATE
+		set_callback_Sample_Grabber PRIVATE
+		return_RF_data              PRIVATE   
+        RF_data_controls            PRIVATE 
+		RF_window_get               PRIVATE 
+		RF_window_set               PRIVATE
+		get_sampling_period         PRIVATE
+		convert_units_to_pixels     PRIVATE
+		RF_WindowMove               PRIVATE
+		RF_WindowSize               PRIVATE
+		RF_lines_get                PRIVATE  
+		CompoundSubframeSetPrevNext PRIVATE
+		cine_loop_controls          PRIVATE
+		get_cine_interval           PRIVATE  
+		get_cine_frame              PRIVATE
+		start_write_RF_to_bin_file  PRIVATE 
+        stop_write_RF_to_bin_file   PRIVATE
+        UsgQualProp_control         PRIVATE
+        RF_Data_source_ID           PRIVATE

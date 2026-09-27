@@ -1,0 +1,14 @@
+# Core pipeline (frame extraction, segmentation, 3D construction, report notebook)
+numpy>=1.26
+opencv-python>=4.9
+matplotlib>=3.8
+pyvista>=0.43
+vtk>=9.3
+
+# Acquisition step (1_acquire/SmartUsDisplay.py) - reads scan settings from .env
+python-dotenv>=1.0
+
+# To run report.ipynb (VS Code "Run All" or jupyter)
+nbformat>=5.9
+nbclient>=0.10
+ipykernel>=6.29

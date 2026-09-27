@@ -1,0 +1,24 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# ---- Visual Studio / MSVC build artifacts (keep the DLLs & sources) ----
+*.ncb
+*.suo
+*.user
+*.iobj
+*.ipdb
+*.pch
+*.log
+*.recipe
+*.obj
+*.pdb
+*.tlog/
+1_acquire/usgfw2wrapper_C++_sources/x64/Release/usgfw2wrapper.lib
+
+# ---- Generated pipeline outputs (reproducible via the scripts) ----
+data/video2images/
+2_segment/output/
+3_construct/output/
+debug_surf.txt

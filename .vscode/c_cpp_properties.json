@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Win32-Motive",
+            "includePath": [
+                "${workspaceFolder}/0_track/C++_wrapper",
+                "C:/Program Files/OptiTrack/Motive/inc"
+            ],
+            "defines": [
+                "MOTIVE_API_IMPORTS",
+                "MOTIVE_WRAPPER_EXPORTS",
+                "_UNICODE",
+                "UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}

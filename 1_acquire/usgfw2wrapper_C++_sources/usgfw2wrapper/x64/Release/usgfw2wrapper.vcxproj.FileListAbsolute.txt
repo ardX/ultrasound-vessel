@@ -1,0 +1,3 @@
+D:\DARBAS\DOCUMENTATION2\ArtUs_RF_Data_Control_MATLAB,Python, LabVIEW\usgfw2wrapper_C++_sources\usgfw2wrapper\x64\Release\usgfw2wrapper.dll
+D:\DARBAS\DOCUMENTATION2\ArtUs RF Data Control for MATLAB Python  LabVIEW\usgfw2wrapper_C++_sources\usgfw2wrapper\x64\Release\usgfw2wrapper.dll
+D:\DARBAS\DOCUMENTATION2\ArtUsRFDataControl_for MATLAB_Python_LabVIEW\usgfw2wrapper_C++_sources\usgfw2wrapper\x64\Release\usgfw2wrapper.dll
